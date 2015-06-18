@@ -71,10 +71,3 @@ class Operator(name: String, unary: Boolean) {
     return "<" + name + " " + isUnary + " " + priority + ">";
   }
 }
-
-case class UnaryOperator(name: String) extends Operator(name, true) {
-
-}
-
-case class BinaryOperator(name: String) extends Operator(name, false) {
-}
